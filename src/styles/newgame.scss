@@ -1,0 +1,31 @@
+@import './standar.scss';
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-h1-title {
+    color: $title-color;
+    font-size: $size-wlcme;
+    text-shadow: $box-shadow-title;
+    text-align: center;
+}
+
+.h1-p-paragraph {
+    font-size: 50px;
+    color: $title-color;
+    text-shadow: $text-shadow-header;
+    text-align: center;
+}
+
+.div-ul-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-li-btn {
+    list-style: none;
+}

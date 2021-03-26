@@ -1,0 +1,44 @@
+@import './standar.scss';
+
+.rules {
+    background: #111;
+    color: red;
+}
+
+.swal-title:not(:last-child){
+    color: $text-btn-color;
+}
+
+.swal-button {
+    background-color: #05435b;
+    text-shadow: $text-shadow-header;
+
+    &:hover{
+        background-color: red;
+    }
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #ff0000;
+}
+
+.header {
+    display: flex;
+}
+
+.div-ul-options {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background: none;
+    color: $title-color;
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 30px;
+    font-size: 30px;
+    text-shadow: $text-shadow-header;
+    cursor: pointer;
+}

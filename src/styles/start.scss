@@ -1,0 +1,84 @@
+@import './standar.scss';
+
+.div-h1-playerOne {
+    color: $text-btn-color;
+    margin: 50px;
+}
+
+.pin{
+    margin:90px auto 0 auto;
+    display:block;
+    position:relative;
+    width:30px;
+    height:50px;
+    background-color:$title-color;
+    border-radius: 100%;
+    background-image:-webkit-linear-gradient(
+        top, $title-color, $title-color 12px,
+                red 12px, red 19px,
+                $title-color 19px, $title-color 25px,
+                red 25px, red 32px,
+                $title-color 32px
+      );
+}
+
+.ballOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.firstLine, .secondLine, .thirdLine, .lastLine   {
+    display: flex;
+    margin: -35px;
+}
+
+/* scorecard */
+
+.notice{
+    text-align: center;
+    color: #d3313a;
+}
+
+.final-score{
+    text-align: center;
+    color: green;
+    padding-bottom: 10px;
+}
+
+  #playagain{
+    text-align: center;
+}
+
+table.scorecard {
+    margin: 0 auto;
+    width:80%;
+    font-size:12px;
+    border:1px solid;
+    text-align: center;
+    table-layout: fixed;
+    margin-bottom: 40px;
+}
+
+table.scorecard th, tr, td {
+    padding: 0;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table.scorecard th {
+    border-bottom:1px solid;
+    background-color:#db22225e;
+    height:30px;
+    color: #fff
+}
+
+  table.scorecard th:not(:last-child) {border-right:1px solid;}
+  table.scorecard td {height:30px; background: rgba(148, 250, 123, 0.527);}
+  table.scorecard tr td:not(:last-child) {border-right:1px solid;}
+  table.scorecard tr:nth-child(2) td:nth-child(even) {border-bottom:1px solid;}
+  table.scorecard tr:nth-child(2) td:last-child {border-bottom:1px solid;}
+
