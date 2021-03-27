@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BowlingDeploy/static/css/main.f422d383.chunk.css",
+    "main.js": "/BowlingDeploy/static/js/main.e22f9d7a.chunk.js",
+    "main.js.map": "/BowlingDeploy/static/js/main.e22f9d7a.chunk.js.map",
+    "runtime-main.js": "/BowlingDeploy/static/js/runtime-main.62247a89.js",
+    "runtime-main.js.map": "/BowlingDeploy/static/js/runtime-main.62247a89.js.map",
+    "static/js/2.f67b1860.chunk.js": "/BowlingDeploy/static/js/2.f67b1860.chunk.js",
+    "static/js/2.f67b1860.chunk.js.map": "/BowlingDeploy/static/js/2.f67b1860.chunk.js.map",
+    "static/js/3.a87687ef.chunk.js": "/BowlingDeploy/static/js/3.a87687ef.chunk.js",
+    "static/js/3.a87687ef.chunk.js.map": "/BowlingDeploy/static/js/3.a87687ef.chunk.js.map",
+    "index.html": "/BowlingDeploy/index.html",
+    "static/css/main.f422d383.chunk.css.map": "/BowlingDeploy/static/css/main.f422d383.chunk.css.map",
+    "static/js/2.f67b1860.chunk.js.LICENSE.txt": "/BowlingDeploy/static/js/2.f67b1860.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/BowlingDeploy/static/media/backgroundBowling.885e08d9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62247a89.js",
+    "static/js/2.f67b1860.chunk.js",
+    "static/css/main.f422d383.chunk.css",
+    "static/js/main.e22f9d7a.chunk.js"
+  ]
+}
